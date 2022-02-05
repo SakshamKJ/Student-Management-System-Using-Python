@@ -1,0 +1,12 @@
+mysql> desc students;
++--------------+--------------+------+-----+---------+-------+
+| Field        | Type         | Null | Key | Default | Extra |
++--------------+--------------+------+-----+---------+-------+
+| roll_no      | varchar(5)   | YES  |     | NULL    |       |
+| name         | varchar(50)  | YES  |     | NULL    |       |
+| phone_number | varchar(15)  | YES  |     | NULL    |       |
+| class        | varchar(10)  | YES  |     | NULL    |       |
+| gender       | varchar(10)  | YES  |     | NULL    |       |
+| subjects     | varchar(150) | YES  |     | NULL    |       |
++--------------+--------------+------+-----+---------+-------+
+database name = saksham
